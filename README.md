@@ -1,11 +1,9 @@
 # Azure VM Network Analysis - Part 4 - Network Protocols Traffic Analysis
 
-# Azure VM Network Analysis - Part 3 - ICMP Traffic Analysis and Network Security Groups (NSGs)
-
-In this tutorial, we will analyze network traffic using Wireshark and PowerShell while experimenting with various network protocols, including SSH, DHCP, DNS, and RDP.
+In guided lab, we will analyze network traffic using Wireshark and PowerShell while experimenting with various network protocols, including SSH, DHCP, DNS, and RDP.
 
 <p align="center">
-<img src="https://i.imgur.com/mbLUNMY.png" alt="Traffic Examination"/>
+<img src="" alt="Traffic Examination"/>
 </p>
 
 
@@ -14,7 +12,7 @@ In this tutorial, we will analyze network traffic using Wireshark and PowerShell
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop 
 - PowerShell 
-- Network protocol (ICMP)
+- Network protocols (SSH, DHCP, DNS, RDP)
 - Wireshark (Protocol Analyzer)
 
 <h2>Operating Systems Used </h2>
@@ -24,12 +22,19 @@ In this tutorial, we will analyze network traffic using Wireshark and PowerShell
 
 <h2>High-Level Steps</h2>
 
-- Step 1: Ping the Linux Virtual Machine
-- Step 2: Disable ICMP incoming traffic for the Linux Virtual Machine
-- Step 3: Observe the ICMP traffic
-- Step 4: Re-enable ICMP incoming traffic for the Linux Virtual Machine
-- Step 5: Observe the ICMP traffic
-- Step 6: Prepare for Part 4 (Final Part)
+- Step 1: 
+- Step 2: 
+- Step 3: 
+- Step 4: 
+- Step 5: 
+- Step 6:
+- Step 8:
+- Step 9:
+- Step 10:
+- Step 11:
+- Step 12:
+  
+  
 
 <h2>Actions and Observations</h2>
 
