@@ -22,23 +22,23 @@ In this guided lab, we will analyze network traffic using Wireshark and PowerShe
 
 <h2>High-Level Steps</h2>
 
-- Step 1: 
-- Step 2: 
-- Step 3: 
-- Step 4: 
-- Step 5: 
-- Step 6:
-- Step 8:
-- Step 9:
-- Step 10:
-- Step 11:
-- Step 12:
+- Step 1: Filter for SSH traffic
+- Step 2: SSH into the Linux Virtual Machine 
+- Step 3: Observe SSH traffic 
+- Step 4: End the SSH connection
+- Step 5: Filter for DHCP traffic 
+- Step 6: Renew the Windows Virtual Machine IP address 
+- Step 8: Observe DHCP traffic
+- Step 9: Filter for DNS traffic 
+- Step 10: Initiate a DNS lookup and observe traffic
+- Step 11: Filter for RDP traffic and observe
+- Step 12: Cleanup the Lab
   
   
 
 <h2>Actions and Observations</h2>
 
-<h3>Step 1: Ping the Linux Virtual Machine</h3>
+<h3>Step 1: Filter for SSH traffic</h3>
 
 <p>
 <img src="https://i.imgur.com/qE2S03X.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
