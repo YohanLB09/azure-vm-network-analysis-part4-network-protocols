@@ -1,9 +1,9 @@
 # Azure VM Network Analysis - Part 4 - Network Protocols Traffic Analysis
 
-In guided lab, we will analyze network traffic using Wireshark and PowerShell while experimenting with various network protocols, including SSH, DHCP, DNS, and RDP.
+In this guided lab, we will analyze network traffic using Wireshark and PowerShell while experimenting with various network protocols, including SSH, DHCP, DNS, and RDP.
 
 <p align="center">
-<img src="" alt="Traffic Examination"/>
+<img src="https://i.imgur.com/1JmaYVn.png" alt="Traffic Examination"/>
 </p>
 
 
