@@ -77,7 +77,7 @@ In this guided lab, we will analyze network traffic using Wireshark and PowerShe
 <p>
 -Back in Wireshark, inspect SSH traffic and the information provided by the packet capture (source IP, destination IP, source port, destination port, MAC addresses, protocols).  
 
--You should also try out other Linux commands (hostname, pwd, id, ifconfig, toucht, ls, rm, etc). 
+  -You should also try out other Linux commands (hostname, pwd, id, ifconfig, toucht, ls, rm, etc). 
 Every time you input something, you will notice SSH traffic occurring in Wireshark.  
 </p>
 <br />
@@ -91,7 +91,9 @@ Every time you input something, you will notice SSH traffic occurring in Wiresha
 <img src="https://i.imgur.com/rTEFK4Y.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
--To end the SSH connection, go back to PowerShell and type "exit" and then press "Enter". This will automatically end the SSH session and reconnect to the Windows VM. To confirm this reconnection to the Windows VM, use the command: "hostname" (this indicates the name of the device you are currently connected to). 
+-To end the SSH connection, go back to PowerShell and type "exit" and then press "Enter". This will automatically end the SSH session and reconnect to the Windows VM. 
+  
+-To confirm this reconnection to the Windows VM, use the command: "hostname" (this indicates the name of the device you are currently connected to). 
 </p>
 <br />
 
@@ -118,7 +120,7 @@ Every time you input something, you will notice SSH traffic occurring in Wiresha
 <img src="https://i.imgur.com/VDrWVIT.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
--Before renewing the Windows VM's IP address, we have to create a script that will allow us to release and renew the IP address in a single process instead of running these commands one after the other. This will prevent our Windows VM from being disconnected from the Virtual Network.  
+-Before renewing the Windows VM's IP address, we have to create a script that will allow us to release and renew the IP address in a single process instead of running these commands one after the other. This will prevent our Windows VM from completely being disconnected from the Virtual Network, and ensure that Wireshark captures the full DHCP exchange.  
 
 -To create the script, open a new window in Notepad and type "ipconfig /release" on the first line, and "ipconfig /renew" on the second line. 
 
