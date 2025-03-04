@@ -112,13 +112,17 @@ Every time you input something, you will notice SSH traffic occurring in Wiresha
 
 
 
-<h3>Step 1: Filter for SSH traffic</h3>
+<h3>Step 6: Create a DHCP script</h3>
 
 <p>
-<img src="" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VDrWVIT.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+-Before renewing the Windows VM's IP address, we have to create a script that will allow us to release and renew the IP address in a single process instead of running these commands one after the other. This will prevent our Windows VM from being disconnected from the Virtual Network.  
 
+-To create the script, open a new window in Notepad and type "ipconfig /release" on the first line, and "ipconfig /renew" on the second line. 
+
+-Type "Ctrl s" and save it as a Batch file (ex: DHCP.bat) in a location that is easily accessible.
 </p>
 <br />
 
