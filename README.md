@@ -54,7 +54,7 @@ In this guided lab, we will analyze network traffic using Wireshark and PowerShe
 <h3>Step 1: Filter for SSH traffic</h3>
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -67,7 +67,7 @@ In this guided lab, we will analyze network traffic using Wireshark and PowerShe
 <h3>Step 1: Filter for SSH traffic</h3>
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -80,7 +80,7 @@ In this guided lab, we will analyze network traffic using Wireshark and PowerShe
 <h3>Step 1: Filter for SSH traffic</h3>
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -93,21 +93,7 @@ In this guided lab, we will analyze network traffic using Wireshark and PowerShe
 <h3>Step 1: Filter for SSH traffic</h3>
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-</p>
-<br />
-
-
-
-
-
-<h3>Step 1: Filter for SSH traffic</h3>
-
-<p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -121,7 +107,7 @@ In this guided lab, we will analyze network traffic using Wireshark and PowerShe
 <h3>Step 1: Filter for SSH traffic</h3>
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -135,7 +121,7 @@ In this guided lab, we will analyze network traffic using Wireshark and PowerShe
 <h3>Step 1: Filter for SSH traffic</h3>
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -149,7 +135,7 @@ In this guided lab, we will analyze network traffic using Wireshark and PowerShe
 <h3>Step 1: Filter for SSH traffic</h3>
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -163,7 +149,7 @@ In this guided lab, we will analyze network traffic using Wireshark and PowerShe
 <h3>Step 1: Filter for SSH traffic</h3>
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -177,7 +163,7 @@ In this guided lab, we will analyze network traffic using Wireshark and PowerShe
 <h3>Step 1: Filter for SSH traffic</h3>
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -191,7 +177,7 @@ In this guided lab, we will analyze network traffic using Wireshark and PowerShe
 <h3>Step 1: Filter for SSH traffic</h3>
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -205,7 +191,21 @@ In this guided lab, we will analyze network traffic using Wireshark and PowerShe
 <h3>Step 1: Filter for SSH traffic</h3>
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+</p>
+<br />
+
+
+
+
+
+<h3>Step 1: Filter for SSH traffic</h3>
+
+<p>
+<img src="" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
