@@ -1,4 +1,4 @@
-# Azure VM Network Analysis - Part 4 - Network Protocols Traffic Analysis
+# Azure VM Network Analysis - Part 4 - Network Protocols
 
 In this guided lab, we will analyze network traffic using Wireshark and PowerShell while experimenting with various network protocols, including SSH, DHCP, DNS, and RDP.
 
