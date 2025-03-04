@@ -169,7 +169,7 @@ This process is also referred to as DORA (Discover - Offer - Request - Acknowled
 <img src="https://i.imgur.com/y9Ayn8y.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
--Back in PowerShell, type "nslookup www.professor.com" (or any other website that you want to check) and inspect the results. What do you think will happen if you try to connect to a website with just the IP address?
+-Back in PowerShell, type "nslookup www.professormesser.com" (or any other website that you want to check) and inspect the results. What do you think will happen if you try to connect to a website with just the IP address?
 
 -In general, most websites will show an error message/default page when accessed via their IP address. Thus, users must typically connect to a website using the domain name.
 
