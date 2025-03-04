@@ -88,23 +88,23 @@ Every time you input something, you will notice SSH traffic occurring in Wiresha
 <h3>Step: 4 End the SSH connection</h3>
 
 <p>
-<img src="" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rTEFK4Y.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+-To end the SSH connection, go back to PowerShell and type "exit" and then press "Enter". This will automatically end the SSH session and reconnect to the Windows VM. To confirm this reconnection to the Windows VM, use the command: "hostname" (this indicates the name of the device you are currently connected to). 
 </p>
 <br />
 
 
 
 
-<h3>Step 1: Filter for SSH traffic</h3>
+<h3>Step 5: Filter for DHCP traffic</h3>
 
 <p>
-<img src="" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Cr1X7Ps.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+-In Wireshark, restart a new packet capture and filter for DHCP traffic by typing "dhcp" in the search bar. Let it run.
 </p>
 <br />
 
