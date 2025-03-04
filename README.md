@@ -41,10 +41,10 @@ In this guided lab, we will analyze network traffic using Wireshark and PowerShe
 <h3>Step 1: Filter for SSH traffic</h3>
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/86ntNVt.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+-Back in Wireshark, start a new packet capture and filter for SSH traffic by typing "ssh" and then pressing "Enter" in the search bar. Let it run.
 </p>
 <br />
 
