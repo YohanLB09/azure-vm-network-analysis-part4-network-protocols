@@ -201,41 +201,36 @@ This process is also referred to as DORA (Discover - Offer - Request - Acknowled
 
 
 
-<h3>Step 1: Filter for SSH traffic</h3>
+<h3>Step 11: Cleanup the Lab</h3>
 
 <p>
-<img src="" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nEM8EBQ.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+-Close all opened windows and turn off your Remote Desktop connection.
+</p>
+<br />
 
+
+
+<p>
+<img src="https://i.imgur.com/Alt4mSy.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+-Back in Azure, type "Resource groups" in the search and delete the Resource Group created at the beginning of this lab (if you see a second one, delete it too). Your VMs will be deleted subsequently because they are part of the Resource Group.
 </p>
 <br />
 
 
 
 
-
-<h3>Step 1: Filter for SSH traffic</h3>
-
 <p>
-<img src="" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/s3gHEyF.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+-Verify Resource Groups deletion to ensure that no resources are left behind, preventing unnecessary costs and resource consumption. 
 
-</p>
-<br />
-
-
-
-
-
-<h3>Step 1: Filter for SSH traffic</h3>
-
-<p>
-<img src="" height="100%" width="100%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
+                        I hope that you found this whole guided lab informative. Thank you! :)
 </p>
 <br />
 
