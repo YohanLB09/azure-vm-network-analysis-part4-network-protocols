@@ -130,27 +130,18 @@ Every time you input something, you will notice SSH traffic occurring in Wiresha
 
 
 
-<h3>Step 1: Filter for SSH traffic</h3>
+<h3>Step 7: Renew the Windows Virtual Machine IP address and observe DHCP traffic</h3>
 
 <p>
-<img src="" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CNQCGRg.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+-Back in PowerShell, run the previously created Batch file with the command: "./downloads/DHCP.bat" (your Batch file name may be different). Your VM will disconnect for a couple seconds and then reconnect automatically. 
 
-</p>
-<br />
+-Even though the DHCP script process worked, you will notice that your Windows VM has been reassigned the same IP address as before. This is normal, Azure configures a DHCP reservation for each active VM to prevent IP address exhaustion and disruption.
 
-
-
-
-
-<h3>Step 1: Filter for SSH traffic</h3>
-
-<p>
-<img src="" height="100%" width="100%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
+-In Wireshark, you should be able to observe the normal process of the Windows VM  releasing its IP address and acquiring a new one through DHCP.
+This process is also referred to as DORA (Discover - Offer - Request - Acknowledge). It starts with a discovery, which in this case involves the Windows VM broadcasting a message to look for (Discover) the DHCP server. The DHCP server will then respond (Offer) with an available IP address. Upon receiving the offer from the DHCP server, the Windows VM will ask (Request) to be assigned the offered IP address. And finally, the DHCP server will acknowledge (ACK) the request for the Windows VM new IP address.
 </p>
 <br />
 
@@ -158,13 +149,13 @@ Every time you input something, you will notice SSH traffic occurring in Wiresha
 
 
 
-<h3>Step 1: Filter for SSH traffic</h3>
+<h3>Step 8: Filter for DNS traffic </h3>
 
 <p>
-<img src="" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/GcoPRmg.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+-In Wireshark, restart a new packet capture and filter for DNS traffic by typing "dns" in the search bar. Let it run.
 </p>
 <br />
 
@@ -172,13 +163,37 @@ Every time you input something, you will notice SSH traffic occurring in Wiresha
 
 
 
-<h3>Step 1: Filter for SSH traffic</h3>
+<h3>Step 9: Initiate a DNS lookup and observe traffic</h3>
 
 <p>
-<img src="" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/y9Ayn8y.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+-Back in PowerShell, type "nslookup www.professor.com" (or any other website that you want to check) and inspect the results. What do you think will happen if you try to connect to a website with just the IP address?
 
+-In general, most websites will show an error message/default page when accessed via their IP address. Thus, users must typically connect to a website using the domain name.
+
+-Additionally, observe the results in Wireshark, you should notice a spam of traffic occurring. This is due to multiple network processes occurring in the background to load the website. By now, you should feel more comfortable locating basic information in Wireshark.
+</p>
+<br />
+
+
+
+
+
+<h3>Step 10: Filter for RDP traffic and observe</h3>
+
+<p>
+<img src="https://i.imgur.com/DWUJlPL.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+-Lastly, go back to Wireshark and restart a new packet capture.
+
+-Before filtering for RDP traffic, what results do you expect to see; a spam of traffic or just a few lines of packets? 
+
+-Type "tcp.port == 3389"  and then press "Enter" in the search bar to filter for RDP traffic. Is the result what you expected? 
+
+-Since we are currently connected to our Windows VM via RDP (real-time session) and a lot of communication (mouse movements, keyboard inputs, screen updates) are occurring between the RDP connection (client) and the Windows VM (server), you should expect a continuous stream of packets, rather than just a few lines of packets.
 </p>
 <br />
 
