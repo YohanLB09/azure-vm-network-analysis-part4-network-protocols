@@ -195,7 +195,7 @@ This process is also referred to as DORA (Discover - Offer - Request - Acknowled
 
 -Type "tcp.port == 3389"  and then press "Enter" in the search bar to filter for RDP traffic. Is the result what you expected? 
 
--Since we are currently connected to our Windows VM via RDP (real-time session) and a lot of communication (mouse movements, keyboard inputs, screen updates) are occurring between the RDP connection (client) and the Windows VM (server), you should expect a continuous stream of packets, rather than just a few lines of packets.
+-Since we are currently connected to our Windows VM via RDP and a lot of communication (mouse movements, keyboard inputs, screen updates) are occurring between the RDP connection (client) and the Windows VM (server), you should expect a continuous stream of packets, rather than just a few lines of packets.
 </p>
 <br />
 
