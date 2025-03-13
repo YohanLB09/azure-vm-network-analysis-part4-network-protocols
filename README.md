@@ -232,7 +232,7 @@ This process is also referred to as DORA (Discover - Offer - Request - Acknowled
 <p>
 -Verify Resource Groups deletion to ensure that no resources are left behind, preventing unnecessary costs and resource consumption. 
 
-                         I hope that you found this whole guided lab informative. Thank you! :)
+                                  I hope that you found this whole guided lab informative. Thank you! :)
 </p>
 <br />
 
