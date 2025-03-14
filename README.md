@@ -10,7 +10,7 @@ In this guided lab, we will analyze network traffic using Wireshark and PowerShe
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop 
+- Remote Desktop Connection
 - PowerShell 
 - Network protocols (SSH, DHCP, DNS, RDP)
 - Wireshark (Protocol Analyzer)
